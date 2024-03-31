@@ -1,0 +1,1817 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flipkart Clone</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            >Flipkart<span class="clone">Clone</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="anchor nav-link active" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Become a Seller</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-primary" type="submit">
+                <span id="search">Search</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1515940175183-6798529cb860?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGhvbmUlMjBkaXNjb3VudCUyMGltYWdlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+              class="d-block w-100"
+              height="750px"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>
+                Get the discount of $ 5000 on latest "Laptop" <br />You Can also
+                win a lots of prices by using our coupon code "iPh1@
+              </h5>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img
+              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGFwdG9wJTIwZGlzY291bnQlMjBpbWFnZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+              class="d-block w-100"
+              height="750px"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>
+                Get the discount of $ 5000 on latest "Laptop" <br />You Can also
+                win a lots of prices by using our coupon code "iPh1@
+              </h5>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNob2VzJTIwZGlzY291bnQlMjBpbWFnZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+              class="d-block w-100"
+              height="750px"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>
+                Get the discount of $ 500 on latest "Laptop" <br />You Can also
+                win a lots of prices by using our coupon code "iPh1@
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <div class="container-fluid">
+        <div class="row justify-contet-center justify-content-evenly">
+          <div class="heading col-md-12 col-12 text-center">
+            <h2>GET THE BEST ELECTRONIC ITEMS HERE</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="content-items shadow-lg">
+          <h4>Best of <br />Electronics</h4>
+          <a
+            href="https://www.flipkart.com/offers-list/content?screen=dynamic&pk=themeViews%3DDT-OMU-1%3ADealcard~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU&wid=3.dealCard.OMU_3&otracker=hp_omu_Best%2Bof%2BElectronics_3&otracker1=hp_omu_PINNED_neo%2Fmerchandising_Best%2Bof%2BElectronics_NA_wc_view-all_3"
+            ><input class="btn btn-primary" type="submit" value="View All"
+          /></a>
+          <img
+            src="https://img.freepik.com/premium-vector/social-network-concept-3d-illustration-icon-composition-with-photo-posting-hashtag-likes-comments-emoji-online-communication-chatting-blogging-vector-illustration-modern-web-design_198565-1857.jpg?w=1380"
+            class="img-fluid"
+            style="padding-top: 17px; padding-right: 8px"
+            alt=""
+          />
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/xif0q/cases-covers/back-cover/j/i/6/mycas-black-vv-y35-qcase-original-imagj87uwxzarrzk.jpeg?q=70"
+              alt="Mobile Covers"
+            />
+          </div>
+          <div class="content-items mt-1">Plain Cases & Cover</div>
+          <div class="content-items mt-1">
+            <p class="text-success">
+              Under <i class="bi bi-currency-rupee text-success"></i>3999
+            </p>
+          </div>
+          <div class="content-items">
+            <p class="text-info">For all top modals</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/l0sgyvk0/cases-covers/back-cover/c/b/s/zapsa03tpu01691-zapcase-original-imagcgffegrnhh6x.jpeg?q=70"
+              alt="Mobile Image"
+            />
+          </div>
+
+          <div class="content-items mt-1">Designer Cases & Cover</div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              Just <i class="bi bi-currency-rupee text-success"></i>169
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Check Out the New Designs</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/hair-dryer/c/t/g/philips-hp8100-46-original-imaemymzuxrnzfjb.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1">Best Of Hair Dryers</div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From <i class="bi bi-currency-rupee text-success"></i>599
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">realme, Phillips & More</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kwwfte80/printer/p/2/m/l3250-epson-original-imag9gz583ngrry2.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 87px">
+            Color Printers
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From<i class="bi bi-currency-rupee text-success"></i>15190
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Dell</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/l44hyfk0/printer/f/o/u/dcp-t226-brother-original-imagf37kykjfsxvu.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 106px">
+            Printers
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From <i class="bi bi-currency-rupee text-success"></i>10190
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Brothers</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kx50gi80/projector/r/9/p/zeb-pixa-play-12-5-6-dobly-audio-led-projector-zebronics-original-imag9z3yujqmzqt4.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 50px">
+            Projectors
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From<i class="bi bi-currency-rupee text-success"></i>9999
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">ZEBRONICS</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/l55nekw0/monitor/j/m/b/vz24ehe-full-hd-23-8-90lm07c3-b01410-asus-original-imagfwed5g2s2d7y.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 58px">
+            Monitor
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From <i class="bi bi-currency-rupee text-success"></i>8279
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Dell</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kp4difk0/hair-straightener/w/u/r/bhs397-40-philips-original-imag3ffu6tzr5j39.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 135px">
+            Best of Hair Straighteners
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From<i class="bi bi-currency-rupee text-success"></i>599
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Phillips, Havells & More</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/knyxqq80/dslr-camera/r/y/x/digital-camera-eos-m50-mark-ii-eos-m50-mark-ii-canon-original-imag2gzkexzqhyhu.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 25px">
+            Top Mirror Less Cameras
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Shop Now!</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Canon, Sony, fujifilms</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div
+          class="row justify-contet-center justify-content-evenly"
+          style="margin-top: -19px"
+        >
+          <div class="heading2 col-md-12 col-12 text-center">
+            <h2>Beauty Food Toys & More</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="content" style="margin-top: 18px">
+        <div class="content-items shadow-lg">
+          <h4>Beauty,Food,<br />Toys & More</h4>
+          <a
+            href="https://www.flipkart.com/offers-list/beauty-food-toys-more?screen=dynamic&pk=themeViews%3DDT-OMU-2%3ADeal-DT~widgetType%3DdealCard~contentType%3Dneo&wid=7.dealCard.OMU_4&otracker=hp_omu_Beauty%252C%2BFood%252C%2BToys%2B%2526%2Bmore_4&otracker1=hp_omu_PINNED_neo%2Fmerchandising_Beauty%252C%2BFood%252C%2BToys%2B%2526%2Bmore_NA_wc_view-all_4"
+            ><input class="btn btn-primary" type="submit" value="View All"
+          /></a>
+          <img
+            src="https://as1.ftcdn.net/v2/jpg/04/46/26/24/1000_F_446262437_fSXgIo9BnphDznGkptoA39WQtwHvsIWN.jpg"
+            class="img-fluid"
+            style="height: 120px; padding-top: 16px"
+            alt=""
+          />
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kzegk280/action-figure/9/v/t/3-30155-mcfarlane-2-5-original-imagbeyyzehpyk2m.jpeg?q=70"
+              alt="Mobile Covers"
+            />
+          </div>
+          <div class="content-items mt-1">Tricycles & Redions</div>
+          <div class="content-items mt-1">
+            <p class="text-success">Up to 70% Off</p>
+          </div>
+          <div class="content-items">
+            <p class="text-info">Figurines, Battle Toys & More</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kx50gi80/pen/h/z/k/119766-flair-original-imag9nzubznagufg.jpeg?q=70"
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 15px">
+            Top Selling Stationary
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From <i class="bi bi-currency-rupee text-success"></i>49
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Pens, Notebooks & More</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kebpqq80/musical-keyboard/j/h/h/37-keys-nj-fashion-original-imafvyhrjeuah2ge.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 100px">
+            Musical-Keyboards
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Up to 70% Off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Beston, Redbox & More</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kawtvgw0/headphone/m/q/j/ath-m50x-professional-monitor-headphones-audio-technica-original-imafsdbhjbzxphf8.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 19px">
+            Studio Headphones
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Up to 40% Off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Shop Now</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/l3uhvgw0/cycle/n/z/c/torro-26t-26-16-montra-72-21-gear-original-imagevzncygdd8ah.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 95px">
+            Electric Cycle
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Upto 40% Off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Nuzr, MotoVolt & More</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kdbzqfk0/bar/8/h/q/push-up-bar-0-8-long-ankaro-original-imafu9dmvdk3rzvy.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 40px">
+            Gym Essentials
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From<i class="bi bi-currency-rupee text-success"></i>139
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Shop Now</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/l51d30w0/shopsy-sport-mat/p/w/s/anadi-01-yoga-mat-4-30-anadi-enterprise-15-original-imagfsxudxcm7r48.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 108px">
+            Yoga Mat
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From <i class="bi bi-currency-rupee text-success"></i>159
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">beat XP, HRX, & Andrenex</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/k45x0nk0/pillow/x/q/8/pillow-blue-pillow-blue-horch-original-imafmmbp6nhrhaxw.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 25px">
+            Baby Bedding
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Min 50% Off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Baby Pillows, Mat & More</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/acoustic-guitar/e/y/y/dd-380c-blk-jixing-original-imaeff94e9tczafp.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 25px">
+            String Instruments
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Up to 70% off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Guitars, Ukeless & More</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div
+          class="row justify-contet-center justify-content-evenly"
+          style="margin-top: -19px"
+        >
+          <div class="heading2 col-md-12 col-12 text-center">
+            <h2>Sports Healthcare & More</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="content" style="margin-top: 30px">
+        <div class="content-items shadow-lg">
+          <h4 style="padding-top: 38px">
+            Sports<br />Healthcare &<br />
+            More
+          </h4>
+          <a
+            href="https://www.flipkart.com/offers-list/sports-healthcare-more?screen=dynamic&pk=themeViews%3DDT-OMU-3%3ADeal-DT~widgetType%3DdealCard~contentType%3Dneo&wid=14.dealCard.OMU_5&otracker=hp_omu_Sports%252C%2BHealthcare%2B%2526%2Bmore_5&otracker1=hp_omu_PINNED_neo%2Fmerchandising_Sports%252C%2BHealthcare%2B%2526%2Bmore_NA_wc_view-all_5"
+            ><input class="btn btn-primary" type="submit" value="View All"
+          /></a>
+          <img
+            src="https://as1.ftcdn.net/v2/jpg/04/46/26/24/1000_F_446262437_fSXgIo9BnphDznGkptoA39WQtwHvsIWN.jpg"
+            class="img-fluid"
+            style="height: 120px; padding-top: 16px"
+            alt=""
+          />
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/knhsgi80/racquet/a/0/u/g4-3-25-inches-g-force-3700-superlite-strung-1-g-force-superlite-original-imag25n4h7gjgrc2.jpeg?q=70"
+              alt="Mobile Covers"
+            />
+          </div>
+          <div class="content-items mt-1" style="margin-top: 20px !important">
+            Badminton Racquets
+          </div>
+          <div class="content-items mt-1">
+            <p class="text-success">Up to 40% Off</p>
+          </div>
+          <div class="content-items">
+            <p class="text-info">Li-ning, Andrenex & More</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kiqbma80-0/musical-toy/s/k/b/xylophone-guitar-wooden-kids-first-musical-sound-instrument-toy-original-imafyfszcjkjcwwz.jpeg?q=70"
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 15px">
+            Musical Toys
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              Under<i class="bi bi-currency-rupee text-success"></i>199
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Top-Selling Toys</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kql8sy80/lipstick/7/m/y/21-sara-s-favorite-sensational-liquid-matte-pack-of-3-touch-of-original-imag4kgnbmynydnw.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 0px">
+            Makeup Essentials
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Up to 60% Off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Lakme, Swiss Beauty & More</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/klzhq4w0/jam-spread/w/q/u/510-chocolate-peanut-butter-crunchy-510g-jar-nut-butter-original-imagyzpqqfaguxny.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 19px">
+            Food Spreads
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Up to 75% Off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Myfiness,Alpino & More</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/book/9/1/1/the-theory-of-everything-original-imadbgf6d45p2qzh.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 17px">
+            Academic Books
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              Under<i class="bi bi-currency-rupee text-success"></i> 199
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Explore Now!</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kchzhjk0/diaper/z/p/f/baby-dry-pants-diaper-l-64-pampers-original-imafthpchhprg2mw.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 15px">
+            Diappers
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Upto 40% Off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Pampers, Huggies & More</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kwfaj680/regionalbooks/u/w/y/objective-ncert-at-your-fingertips-neet-aiims-combo-biology-original-imag93ztftamwqta.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 16px">
+            Most Searched Books
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Min 30% Off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Shop Now</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kl5hh8w0/puzzle/g/n/g/60-wooden-earth-jigsaw-puzzle-60-pcs-webby-original-imagyc8hsdztzdzb.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 25px">
+            Puzzles And Cubes
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From<i class="bi bi-currency-rupee text-success"></i>79
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Unmissable Offers!</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/krgohow0/learning-toy/1/a/h/mapology-ultimate-indian-combo-india-with-capitals-map-puzzle-original-imag59f2vyh63v9x.jpeg?q=70"
+              height="171px"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 0px">
+            Learning And Educational Games
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Up to 80% off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">By Imagimake, Smarticity & More</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- The New Ones -->
+
+      <div class="container-fluid">
+        <div
+          class="row justify-contet-center justify-content-evenly"
+          style="margin-top: -19px"
+        >
+          <div class="heading2 col-md-12 col-12 text-center">
+            <h2>Home And Kitchen Essentials</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="content" style="margin-top: 30px">
+        <div class="content-items shadow-lg">
+          <h4 style="padding-top: 38px">Home &<br />Kitchen<br />Essentials</h4>
+          <a
+            href="https://www.flipkart.com/offers-list/home-kitchen-essentials?screen=dynamic&pk=themeViews%3DDT-OMU-4%3ADeal~widgetType%3DdealCard~contentType%3Dneo&wid=18.dealCard.OMU_6&otracker=hp_omu_Home%2B%2526%2BKitchen%2BEssentials_6&otracker1=hp_omu_PINNED_neo%2Fmerchandising_Home%2B%2526%2BKitchen%2BEssentials_NA_wc_view-all_6"
+            ><input class="btn btn-primary" type="submit" value="View All"
+          /></a>
+          <img
+            src="https://img.freepik.com/free-vector colorful-living-room-interior-with-sofa-other-furniture-cartoon-illustration_74855-17019.jpg?w=1060&t=st=1679216231~exp=1679216831~hmac=a0357947125e32216487943311a60bc32d55b60ddddbc8ece20471c72005c2ae"
+            class="img-fluid"
+            style="height: 120px; padding-top: 16px; padding-right: 5px"
+            alt=""
+          />
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kz8qsnk0/mosquito-net/h/1/p/double-bed-polyester-adults-blue-mosquito-net-double-bed-nets-original-imagbagfgnfvnquj.jpeg?q=70"
+              alt="Mobile Covers"
+            />
+          </div>
+          <div class="content-items mt-1" style="margin-top: 20px !important">
+            Mosquito Nets
+          </div>
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From<i class="bi bi-currency-rupee text-success"></i>149
+            </p>
+          </div>
+          <div class="content-items">
+            <p class="text-info">Li-ning, Andrenex & More</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/ked56kw0/battery/nimh/z/v/e/duracell-plus-a-a-4-pcs-1300-mah-original-imafv2ff3mbzj6gg.jpeg?q=70"
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 15px">
+            Batteries
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From<i class="bi bi-currency-rupee text-success"></i>79
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Best Selling</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/k0e66q80/plant-sapling/c/e/7/air-purifying-pothos-money-plant-with-imported-pot-1-water-original-imafk747aczgq6ze.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 31px">
+            Live Plants
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From<i class="bi bi-currency-rupee text-success"></i>199
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Best Selling</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/xif0q/welding-machine/c/7/3/15-m220-76-arc-igbt-220a-with-hot-start-anti-stick-functions-arc-original-imaggaxpxcs4ffwg.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 32px">
+            Welding Machines
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              Starting<i class="bi bi-currency-rupee text-success"></i>2999
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Best Selling</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kgv5x8w0/slipcover/v/f/v/sfc-29-onterio-fab-original-imafxyen34zmpde3.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 68px">
+            Sofa Covers
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From<i class="bi bi-currency-rupee text-success"></i> 149
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Best Selling Range!</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/k5e7o280/wall-clock/6/h/j/designer-wall-clock10-cw-ct-red25412-analog-ajanta-original-imafzyx3fdtf2hcb.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 18px">Clocks</div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Upto 80% Off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">|Big Discounts</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kura1e80/pooja-thali-set/d/h/2/yes-kk-pooja-thli-sml-gold-kridaykraft-original-imag7t6v2qjjtbpw.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 16px">
+            Spiritual Items
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Upto 80% Off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Big Discounts</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/krs40i80/appliance-cover/i/r/b/exp-ac-44-exopick-original-imag5hh8azrpx5gx.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 15px">
+            Appliance Covers
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From<i class="bi bi-currency-rupee text-success"></i>69
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Best Selling Range</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/ku79vgw0/cushion-pillow-cover/i/w/j/solid-satin-sugarchic-original-imag7dpsejfqefpn.jpeg?q=70"
+              height="127px"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 88px">
+            Pillow Covers
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From<i class="bi bi-currency-rupee text-success"></i>79
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Best Selling Range</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div
+          class="row justify-contet-center justify-content-evenly"
+          style="margin-top: -19px"
+        >
+          <div class="heading2 col-md-12 col-12 text-center">
+            <h2>Grooming Books Auto & More</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="content" style="margin-top: 18px">
+        <div class="content-items shadow-lg">
+          <h4 style="margin-top: -40px">
+            Grooming<br />books, Auto &<br />
+            More
+          </h4>
+          <a
+            href="https://www.flipkart.com/offers-list/beauty-food-toys-more?screen=dynamic&pk=themeViews%3DDT-OMU-2%3ADeal-DT~widgetType%3DdealCard~contentType%3Dneo&wid=7.dealCard.OMU_4&otracker=hp_omu_Beauty%252C%2BFood%252C%2BToys%2B%2526%2Bmore_4&otracker1=hp_omu_PINNED_neo%2Fmerchandising_Beauty%252C%2BFood%252C%2BToys%2B%2526%2Bmore_NA_wc_view-all_4"
+            ><input class="btn btn-primary" type="submit" value="View All"
+          /></a>
+          <img
+            src="https://as1.ftcdn.net/v2/jpg/04/46/26/24/1000_F_446262437_fSXgIo9BnphDznGkptoA39WQtwHvsIWN.jpg"
+            class="img-fluid"
+            style="height: 120px; padding-top: 16px"
+            alt=""
+          />
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kzegk280/action-figure/9/v/t/3-30155-mcfarlane-2-5-original-imagbeyyzehpyk2m.jpeg?q=70"
+              alt="Mobile Covers"
+            />
+          </div>
+          <div class="content-items mt-1">Tricycles & Redions</div>
+          <div class="content-items mt-1">
+            <p class="text-success">Up to 70% Off</p>
+          </div>
+          <div class="content-items">
+            <p class="text-info">Figurines, Battle Toys & More</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kx50gi80/pen/h/z/k/119766-flair-original-imag9nzubznagufg.jpeg?q=70"
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 15px">
+            Top Selling Stationary
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From <i class="bi bi-currency-rupee text-success"></i>49
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Pens, Notebooks & More</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kebpqq80/musical-keyboard/j/h/h/37-keys-nj-fashion-original-imafvyhrjeuah2ge.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 100px">
+            Musical-Keyboards
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Up to 70% Off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Beston, Redbox & More</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kawtvgw0/headphone/m/q/j/ath-m50x-professional-monitor-headphones-audio-technica-original-imafsdbhjbzxphf8.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 19px">
+            Studio Headphones
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Up to 40% Off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Shop Now</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/l3uhvgw0/cycle/n/z/c/torro-26t-26-16-montra-72-21-gear-original-imagevzncygdd8ah.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 95px">
+            Electric Cycle
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Upto 40% Off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Nuzr, MotoVolt & More</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kdbzqfk0/bar/8/h/q/push-up-bar-0-8-long-ankaro-original-imafu9dmvdk3rzvy.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 40px">
+            Gym Essentials
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From<i class="bi bi-currency-rupee text-success"></i>139
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Shop Now</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/l51d30w0/shopsy-sport-mat/p/w/s/anadi-01-yoga-mat-4-30-anadi-enterprise-15-original-imagfsxudxcm7r48.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 108px">
+            Yoga Mat
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From <i class="bi bi-currency-rupee text-success"></i>159
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">beat XP, HRX, & Andrenex</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/k45x0nk0/pillow/x/q/8/pillow-blue-pillow-blue-horch-original-imafmmbp6nhrhaxw.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 25px">
+            Baby Bedding
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Min 50% Off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Baby Pillows, Mat & More</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/acoustic-guitar/e/y/y/dd-380c-blk-jixing-original-imaeff94e9tczafp.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 25px">
+            String Instruments
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Up to 70% off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Guitars, Ukeless & More</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div
+          class="row justify-contet-center justify-content-evenly"
+          style="margin-top: -19px"
+        >
+          <div class="heading2 col-md-12 col-12 text-center">
+            <h2>Fashion Top Deals</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="content" style="margin-top: 30px">
+        <div class="content-items shadow-lg">
+          <h4 style="padding-top: 38px">Fashion Top<br />Deals</h4>
+          <a
+            href="https://www.flipkart.com/offers-list/fashion-top-deals?screen=dynamic&pk=themeViews%3DDT-OMU-6%3ADT-OMU-6~widgetType%3DdealCard~contentType%3Dneo&wid=28.dealCard.OMU_8&otracker=hp_omu_Fashion%2BTop%2BDeals_8&otracker1=hp_omu_PINNED_neo%2Fmerchandising_Fashion%2BTop%2BDeals_NA_wc_view-all_8"
+            ><input class="btn btn-primary" type="submit" value="View All"
+          /></a>
+          <img
+            src="https://img.freepik.com/premium-psd/fashion-sale-social-media-template_597327-119.jpg?size=338&ext=jpg&ga=GA1.1.43746558.1665835163&semt=sph"
+            class="img-fluid"
+            style="height: 120px; padding-top: 16px"
+            alt=""
+          />
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/fk-p-flap/200/200/image/5aa98b7cee183286.jpg?q=70"
+              alt="Mobile Covers"
+            />
+          </div>
+          <div class="content-items mt-1" style="margin-top: 20px !important">
+            Best Selling Styles
+          </div>
+          <div class="content-items mt-1">
+            <p class="text-success">Min .40% Off</p>
+          </div>
+          <div class="content-items">
+            <p class="text-info">Woodland, U.S.Polo</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/l48s9zk0/shirt/w/s/r/m-st-pv-purple-majestic-man-original-imagf6g9knyyrxvp.jpeg?q=70"
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 15px">
+            Roadster, HRX & More
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From<i class="bi bi-currency-rupee text-success"></i>249
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">T-Shirts & Shirts</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kz8qsnk0/lehenga-choli/m/k/z/free-3-4-sleeve-puspar-lh-001-divastri-original-imagbarzwpevcr5e.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 16px">
+            Lehenga, Cholis & Gowns
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Buy 3, Get 10% Off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Buy 2, Get 5% Off</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/l3dcl8w0/sari/n/7/j/free-mfs-192-light-blue-mahalaxmi-fashion-unstitched-original-imagegdqcnufet7k.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 19px">
+            Organza Sarees
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Flat 70% Off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Shop Now!</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kpu3frk0/trouser/n/i/k/30-foilcombo9661-trend-level-original-imag3zggwyrwtbz9.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 17px">
+            Plazzos
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From<i class="bi bi-currency-rupee text-success"></i> 199
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Shopping Shuru?</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/xif0q/kurta/h/c/u/xxl-k95165-526-deyann-original-imafj9a9t4bqhxca-bb.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 15px">
+            Kurtas, Dhotis
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From<i class="bi bi-currency-rupee text-success"></i> 499
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Be Pongal Ready</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/joq2qa80/jacket/v/h/8/m-fmjk0610-flying-machine-original-imafb4944xejmphz.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 16px">
+            Sweat-Shirts, Jackets, Jeans
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              Under<i class="bi bi-currency-rupee text-success"></i> 599
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Beat the Chill</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/flap/200/200/image/4398b53c0596430f.jpg?q=70"
+              height="171px"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 25px">
+            Kids Clothing
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Min. 60% Off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">U.S. Polo, Provogue & More</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/xif0q/sandal/y/w/8/2-goldensuperstaruk2-purplehunt-golden-original-imaggzdrcyj6fuqq.jpeg?q=70"
+              height="171px"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 45px">
+            Puma, Bata
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Min. 40% off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Women's Shoes</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div
+          class="row justify-contet-center justify-content-evenly"
+          style="margin-top: -19px"
+        >
+          <div class="heading2 col-md-12 col-12 text-center">
+            <h2>Top Deals</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="content" style="margin-top: 30px">
+        <div class="content-items shadow-lg">
+          <h4 style="padding-top: 38px">Top Deals</h4>
+          <a
+            href="https://www.flipkart.com/offers-list/top-deals?screen=dynamic&pk=themeViews%3DDT-OMU-A2%3ADT-OMU~widgetType%3DdealCard~contentType%3Dneo&wid=30.dealCard.OMU_9&otracker=hp_omu_Top%2BDeals_9&otracker1=hp_omu_PINNED_neo%2Fmerchandising_Top%2BDeals_NA_wc_view-all_9"
+            ><input class="btn btn-primary" type="submit" value="View All"
+          /></a>
+          <img
+            src="https://img.freepik.com/free-vector/big-sale-banner-colorful-design-illustration_1035-14928.jpg?size=338&ext=jpg&ga=GA1.2.43746558.1665835163&semt=ais"
+            class="img-fluid"
+            style="height: 120px; padding-top: 24px; padding-right: 5px"
+            alt=""
+          />
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/l1v1uvk0/tablet/9/c/s/6650034-realme-original-imagdc5ac3y7xgxh.jpeg?q=70"
+              alt="Mobile Covers"
+            />
+          </div>
+          <div class="content-items mt-1" style="margin-top: 20px !important">
+            Real Me Pad
+          </div>
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From<i class="bi bi-currency-rupee text-success"></i>9,999
+            </p>
+          </div>
+          <div class="content-items">
+            <p class="text-info">#1 Best Seller in Charts!</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/ktop5e80/tablet/x/9/o/mk2k3hn-a-apple-original-imag6yy7xjjugz4w.jpeg?q=70"
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 15px">
+            Apple I-Pads
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Shop Now!</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Liquid Retina Display</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/xif0q/stylus/6/t/u/pencil-1st-generation-mqly3zm-a-apple-original-imagj85yqajmxu9j.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 15px">
+            Apple Pencil
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Shop Now</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Stylus for your i-pads</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/xif0q/instant-camera/e/2/u/-original-imagk4myz37c3dtx.jpeg?q=70"
+              height="171px"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 25px">
+            Instax Cameras
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From<i class="bi bi-currency-rupee text-success"></i>3,999
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Capture your unique moments</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/knyxqq80/dslr-camera/r/y/x/digital-camera-eos-m50-mark-ii-eos-m50-mark-ii-canon-original-imag2gzkexzqhyhu.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 42px">
+            Mirrorless Cameras
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From<i class="bi bi-currency-rupee text-success"></i>57,999
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">NCEM | Product exch</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kpvivm80/tablet/r/x/9/sm-t225nzaains-samsung-original-imag4yrg8vahczvr.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 77px">
+            Samsung Galaxy Tabs
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Shop Now!</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Best Sellers | Most Wishlisted</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/k6qsn0w0/tablet/3/q/z/lenovo-za5g0047in-original-imafp4w7qvpnprv5.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 16px">
+            Lenovo Tab M8
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Shop Now!</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">8-inch | upto 64gb</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kgqvlow0/battery-charger/d/a/7/apple-mhjd3hn-a-original-imafwwwfg5xgcctm.jpeg?q=70"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 13px">
+            Buy Now
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">
+              From<i class="bi bi-currency-rupee text-success"></i>99
+            </p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Ambrane, Mi & More</p>
+          </div>
+        </div>
+
+        <div class="content-items shadow-lg">
+          <div class="content-items">
+            <img
+              src="https://rukminim1.flixcart.com/image/200/200/kqidx8w0/camera-bag/backpack/9/i/u/dslr-slr-camera-lens-shoulder-printed-backpack-bnp-0197p-camera-original-imag4hjz7ugpgvkf.jpeg?q=70"
+              height="171px"
+              alt=""
+            />
+          </div>
+
+          <div class="content-items mt-1" style="padding-top: 43px">
+            Camera Bags
+          </div>
+
+          <div class="content-items mt-1">
+            <p class="text-success">Min. 50% off</p>
+          </div>
+
+          <div class="content-items">
+            <p class="text-info">Nikon, Canon & More</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container-fluid">
+        <div
+          class="row text-start justify-content-evenly"
+          style="background-color: blue; color: white"
+        >
+          <div class="divfooter col-md-2 col-11 text-center">
+            <h4 id="about">About</h4>
+            <ul id="footer1">
+              <li>Contact Us</li>
+              <li>About Us</li>
+              <li>Careers</li>
+              <li>Flipkart Stories</li>
+              <li>Press</li>
+              <li>Flipkart Wholesale</li>
+              <li>Corporate Informatin</li>
+            </ul>
+          </div>
+
+          <div class="divfooter col-md-2 col-11 text-center">
+            <h4>Help</h4>
+            <ul id="footer1">
+              <li>Payments</li>
+              <li>Shipping</li>
+              <li>Cancellation & Returns</li>
+              <li>FAQ</li>
+              <li>Report Infringement</li>
+              <li>Report Infringement</li>
+              <li>Report Infringement</li>
+            </ul>
+          </div>
+
+          <div class="divfooter col-md-2 col-11 text-center">
+            <h4>Policy</h4>
+            <ul id="footer1">
+              <li>Return Policy</li>
+              <li>Terms of Use</li>
+              <li>Security</li>
+              <li>Privacy</li>
+              <li>Sitemap</li>
+              <li>EPR Compilance</li>
+              <li>Report Infringement</li>
+            </ul>
+          </div>
+
+          <div class="divfooter col-md-2 col-11 text-center">
+            <h4>Social</h4>
+            <ul id="footer1">
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Youtube</li>
+              <li>Report Infringement</li>
+              <li>Report Infringement</li>
+              <li>Report Infringement</li>
+              <li>Report Infringement</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid mt-4">
+        <div
+          class="row justify-content-evenly align-item-center text-center"
+          style="background-color: blue"
+        >
+          <div class="col-md-2 col-sm-2 col-11 mt-2">
+            <p style="color: white">
+              <i class="bi bi-bag-check mx-2 text-warning"></i>Become a Seller
+            </p>
+          </div>
+
+          <div class="col-md-2 col-sm-2 col-11 mt-2">
+            <p style="color: white">
+              <i class="bi bi-info-circle-fill mx-2 text-warning"></i>Advertise
+            </p>
+          </div>
+
+          <div class="col-md-2 col-sm-2 col-11 mt-2">
+            <p style="color: white">
+              <i class="bi bi-gift mx-2 text-warning"></i>Gift Cards
+            </p>
+          </div>
+
+          <div class="col-md-2 col-sm-2 col-11 mt-2">
+            <p style="color: white">
+              <i class="bi bi-question-circle-fill mx-2 text-warning"></i
+              >@flipkart.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
